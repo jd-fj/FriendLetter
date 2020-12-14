@@ -11,6 +11,6 @@ namespace FriendLetter.Controllers
     public string Goodbye() { return "Goodbye friend."; }
 
     [Route("/")]
-    public string Letter() { return "RootDir"; }
+    public ActionResult Letter() { return View(); }
   }
 }
